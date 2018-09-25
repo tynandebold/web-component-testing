@@ -1,0 +1,66 @@
+:focus {
+  outline: 0;
+}
+
+button {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-transition-duration: .1s;
+  -webkit-transition-property: color,background-color,border-color;
+  -webkit-transition-timing-function: ease;
+  -webkit-user-select: none;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  max-height: 40px;
+  max-width: 100%;
+  min-height: 40px;
+  min-width: 40px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition-duration: .1s;
+  transition-property: color,background-color,border-color;
+  transition-timing-function: ease;
+  user-select: none;
+}
+
+button span {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .02em;
+  line-height: 18px;
+  margin-top: -2px;
+  overflow: hidden;
+  padding: 0 10px;
+  position: relative;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+button.ts-primary {
+  background-color: #00aeff;
+  color: #fff;
+}
+
+button.ts-primary:hover {
+  background-color: #0085cc;
+}
+
+button.ts-secondary,
+button.ts-tertiary {
+  background-color: rgba(255,255,255,.5);
+  border: 1px solid #cbd7dc;
+  color: #0f151a;
+}
+
+button.ts-active {
+  border: 1px solid #0065a3;
+}
