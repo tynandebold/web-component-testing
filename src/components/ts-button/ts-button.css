@@ -26,6 +26,8 @@ button {
   transition-property: color,background-color,border-color;
   transition-timing-function: ease;
   user-select: none;
+
+  /* font-size: var(--font-size); */
 }
 
 button span {
