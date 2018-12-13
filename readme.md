@@ -1,6 +1,6 @@
 # Testing Web Components
 
-## Getting Started
+## Getting started
 
 ```bash
 npm install
